@@ -1,6 +1,6 @@
 import conditions from './conditions.js';
 
-const keyApi = 'f103e964124e4f6fb99133204241312';
+const keyApi = '6da4caa437cc4e1a999223632252402';
 
 const header = document.querySelector('.header');
 const form = document.querySelector('#form');

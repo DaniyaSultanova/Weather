@@ -36,6 +36,3 @@
 ## Демо
 https://daniyasultanova.github.io/Weather/
 
-## Автор
-[Твой ник/имя]
-

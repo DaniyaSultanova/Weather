@@ -40,6 +40,11 @@ form.onsubmit = function (e) {
                             <img class="card-img" src="${data.current.condition.icon}" alt="weather"></img>
                         </div>
                         <div class="card-desc">${condition}</div>
+                        <div class="card-info">
+                            <p>💨 Ветер: ${data.current.wind_kph} км/ч</p>
+                            <p>💧 Влажность: ${data.current.humidity}%</p>
+                            <p>   Ощущается как: ${data.current.feelslike_c}°C<p>
+                         </div>
                         </div>`;
 
             header.insertAdjacentHTML('afterend', html);
